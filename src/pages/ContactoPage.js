@@ -13,7 +13,7 @@ const ContactoPage = (props) => {
                         <input type="text" />
                     </p>
                     <p>
-                        <label for="telefono" >Teléfono</label>
+                        <label for="telefono" >Telefono</label>
                         <input type="text" />
                     </p>
                     <p>
