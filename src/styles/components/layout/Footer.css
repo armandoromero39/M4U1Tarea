@@ -1,0 +1,10 @@
+footer {
+    background-color: #3486e4;
+    clear: both;
+    color: #fcf9f9;
+    box-shadow: 0 0 10px rgb(8, 0, 0) inset;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+    
+}
