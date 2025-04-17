@@ -1,6 +1,8 @@
 import '../styles//components/pages/NosotrosPage.css'
+
 const NosotrosPage = (props) => {
     return(
+        
         <main className="holder">
         <div className="historia">
             <h2>Historia</h2>

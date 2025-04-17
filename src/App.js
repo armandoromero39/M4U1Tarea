@@ -9,7 +9,9 @@ import ContactoPage from "./pages/ContactoPage";
 import NovedadesPage from "./pages/NovedadesPage";
 import HomePage from "./pages/HomePage";
 import NosotrosPage from "./pages/NosotrosPage";
-
+import ServiciosPage from './pages/ServiciosPage';
+import GaleriaPage from './pages/GaleriaPage';
+import PageTitle from './PageTitle';
 
 function App() {
   return (
@@ -18,10 +20,12 @@ function App() {
       <BrowserRouter>
         <Nav />
         <Routes>
-          <Route path="/" element={<HomePage/>}/>
-          <Route path="nosotros" element={<NosotrosPage/>}/>
-          <Route path="novedades" element={<NovedadesPage/>}/>
-          <Route path="contacto" element={<ContactoPage/>}/>
+          <Route path="/" element={<><PageTitle title="Home Page"/><HomePage/></>}/>
+          <Route path="nosotros" element={<><PageTitle title="Nosotros"/><NosotrosPage/></>}/>
+          <Route path="servicios" element={<><PageTitle title="Servicios"/><ServiciosPage/></>}/>
+          <Route path="galeria" element={<><PageTitle title="Galería"/><GaleriaPage/></>}/>
+          <Route path="novedades" element={<><PageTitle title="Novedades"/><NovedadesPage/></>}/>
+          <Route path="contacto" element={<><PageTitle title="Contacto"/><ContactoPage/></>}/>
         </Routes>
       </BrowserRouter>
 
